@@ -1,6 +1,4 @@
 header {
-  /*background: rgb(123,163,118);
-  background: radial-gradient(circle, rgba(123,163,118,1) 18%, rgba(68,87,93,1) 65%, rgba(2,6,2,1) 100%);*/
   border-bottom: 1px solid white;
   height: 100px;
   width: 1250px;
@@ -91,7 +89,8 @@ span {
 
 footer {
   height: 100px;
-  width: 1250px;
+  max-width: 1250px;
+  width: 100%;
   border-top: 1px solid white;
   /*background: rgb(123,163,118);
   background: radial-gradient(circle, rgba(123,163,118,1) 18%, rgba(68,87,93,1) 65%, rgba(2,6,2,1) 100%);*/
