@@ -1,19 +1,24 @@
 @import '_header';
 @import '_footer';
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
 body {
     background-image: url(/images/landing-img/background.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
-    //max-width: 1250px;
     width: 100%;
 }
 main {
-    display: flex;
+    /*display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: center;*/
     font-style: normal;
     height: 400px;
     margin: 50px;
