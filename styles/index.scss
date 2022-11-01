@@ -1,10 +1,12 @@
 @import '_header';
 @import '_footer';
 body {
-    background-image: url(../images/landing-img/background.png);
+    background-image: url(/images/landing-img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
-    max-width: 1250px;
+    //max-width: 1250px;
     width: 100%;
 }
 main {
